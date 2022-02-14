@@ -1,4 +1,6 @@
 #include<stdio.h>
+#define MAX_LEN 128
+// define은 가독성을 높이기 위해 사용한다
 
 void convertToUpperCase(char* s) {
 	while (*s != NULL) {

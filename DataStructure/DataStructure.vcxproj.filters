@@ -13,19 +13,34 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\1week">
+      <UniqueIdentifier>{e158a57f-6047-4b69-a409-bb5e64f94089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2week">
+      <UniqueIdentifier>{4f01bcff-33e5-4991-9add-7c87d3ebd2d3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="pointer_typeTrans.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="arrPlus.cpp">
+      <Filter>소스 파일\1week</Filter>
     </ClCompile>
     <ClCompile Include="func.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\1week</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer_typeTrans.cpp">
+      <Filter>소스 파일\1week</Filter>
+    </ClCompile>
+    <ClCompile Include="pr_structure_pointer.cpp">
+      <Filter>소스 파일\1week</Filter>
+    </ClCompile>
+    <ClCompile Include="structure_pointer.cpp">
+      <Filter>소스 파일\1week</Filter>
     </ClCompile>
     <ClCompile Include="upStepRange.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\1week</Filter>
     </ClCompile>
-    <ClCompile Include="arrPlus.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="day06.cpp">
+      <Filter>소스 파일\2week</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

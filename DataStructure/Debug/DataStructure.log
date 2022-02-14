@@ -1,1 +1,16 @@
-﻿  DataStructure.vcxproj -> D:\GitHub\dataStructrue\DataStructure\Debug\DataStructure.exe
+﻿  pr_structure_pointer.cpp
+D:\GitHub\dataStructrue\DataStructure\pr_structure_pointer.cpp(26,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\dataStructrue\DataStructure\pr_structure_pointer.cpp(27,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\dataStructrue\DataStructure\pr_structure_pointer.cpp(55,16): warning C4553: '==': 식의 결과가 사용되지 않습니다. '='을(를) 의도했습니까?
+D:\GitHub\dataStructrue\DataStructure\pr_structure_pointer.cpp(56,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\dataStructrue\DataStructure\pr_structure_pointer.cpp(57,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\dataStructrue\DataStructure\pr_structure_pointer.cpp(122,12): warning C4473: 'scanf_s': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+D:\GitHub\dataStructrue\DataStructure\pr_structure_pointer.cpp(122,12): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 1개가 제공되었습니다.
+D:\GitHub\dataStructrue\DataStructure\pr_structure_pointer.cpp(122,12): message : 누락된 variadic 인수 2이(가) 서식 문자열 '%s'에 필요합니다.
+D:\GitHub\dataStructrue\DataStructure\pr_structure_pointer.cpp(122,12): message : 이 인수는 버퍼 크기로 사용됩니다.
+D:\GitHub\dataStructrue\DataStructure\pr_structure_pointer.cpp(108,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\dataStructrue\DataStructure\pr_structure_pointer.cpp(133,7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\dataStructrue\DataStructure\pr_structure_pointer.cpp(153,7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\dataStructrue\DataStructure\pr_structure_pointer.cpp(173,7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\dataStructrue\DataStructure\pr_structure_pointer.cpp(193,7): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  DataStructure.vcxproj -> D:\GitHub\dataStructrue\DataStructure\Debug\DataStructure.exe
