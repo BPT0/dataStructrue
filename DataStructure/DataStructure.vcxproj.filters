@@ -39,7 +39,7 @@
     <ClCompile Include="upStepRange.cpp">
       <Filter>소스 파일\1week</Filter>
     </ClCompile>
-    <ClCompile Include="day06.cpp">
+    <ClCompile Include="day06.c">
       <Filter>소스 파일\2week</Filter>
     </ClCompile>
   </ItemGroup>
