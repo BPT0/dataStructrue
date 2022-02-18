@@ -78,7 +78,7 @@ void Func1(Data1** p)
 
 int main() {
 	// 종합문제
-	// 1. 구조체-  데이터 삽입, 출력
+	//// 1. 구조체-  데이터 삽입, 출력
 	//Data1* p = (Data1*)malloc(sizeof(Data1));
 	//Func1(&p);
 	////Func1()함수를 만들어서 Func1()안에서 data1에 100을 넣으세요.
@@ -93,7 +93,7 @@ int main() {
 	//Data1* p = (Data1*)malloc(sizeof(Data1));
 	//printf("이름을 입력하세요 : ");
 	////scanf()를 이용해 name에 이름을 입력 받으세요.
-	//scanf("%s", &p->p.name);
+	//scanf("%s", p->p.name);
 	//printf("점수를 입력하세요 : ");
 	////scanf()를 이용해 score에 점수를 입력 받으세요.
 	//scanf("%d", &p->p.score);

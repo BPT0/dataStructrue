@@ -45,5 +45,8 @@
     <ClCompile Include="day07_quiz.c">
       <Filter>소스 파일\2week</Filter>
     </ClCompile>
+    <ClCompile Include="stack.c">
+      <Filter>소스 파일\2week</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
