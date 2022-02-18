@@ -40,7 +40,10 @@
       <SDLCheck Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</SDLCheck>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="stack.c" />
+    <ClCompile Include="quiz_stack.c" />
+    <ClCompile Include="stack.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="structure_pointer.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
