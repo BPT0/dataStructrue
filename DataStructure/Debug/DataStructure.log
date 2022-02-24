@@ -1,6 +1,4 @@
-﻿  quiz_stack.c
-D:\GitHub\dataStructrue\DataStructure\quiz_stack.c(23,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\GitHub\dataStructrue\DataStructure\quiz_stack.c(66,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\GitHub\dataStructrue\DataStructure\quiz_stack.c(71,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\GitHub\dataStructrue\DataStructure\quiz_stack.c(74,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+﻿  que_quiz1.c
+D:\GitHub\dataStructrue\DataStructure\que_quiz1.c(85,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\GitHub\dataStructrue\DataStructure\que_quiz1.c(89,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   DataStructure.vcxproj -> D:\GitHub\dataStructrue\DataStructure\Debug\DataStructure.exe

@@ -1,0 +1,51 @@
+#include<stdio.h>
+#include<malloc.h>
+struct stack {
+	int data;
+	struct stack * link;
+}; typedef struct stack st;
+st * get_node() {
+	st*tmp;
+	tmp = (st*)malloc(sizeof(st));
+	return tmp;
+}
+void enqueue(st**front, int data, st**rear) {
+	st*tmp;
+	tmp = *front;
+	if (tmp == 0) {
+		*front = get_node();
+		*rear = *front;
+		(*rear)->data = data;
+		(*rear)->link = tmp;
+	}
+	else {
+		tmp = *rear;
+		*rear = get_node();
+		(*rear)->data = data;
+		(*rear)->link = 0;
+		tmp->link = *rear;
+	}
+}
+int dequeue(st**front) {
+	st*tmp;
+	int data;
+	if (*front == 0) {
+		printf("더이상 데이터가 없습니다.");
+		return 0;
+	}
+	tmp = *front;
+	data = tmp->data;
+	*front = (*front)->link;
+	free(tmp);
+	return data;
+}
+void main() {
+	st * front = 0, *rear = 0;
+	enqueue(&front, 10, &rear);
+	enqueue(&front, 20, &rear);
+	enqueue(&front, 30, &rear);
+	printf("%d ",dequeue(&front));
+	printf("%d ", dequeue(&front));
+	printf("%d ", dequeue(&front));
+	printf("%d ", dequeue(&front));
+}
